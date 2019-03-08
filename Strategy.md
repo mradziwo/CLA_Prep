@@ -9,7 +9,9 @@
 
 ## ToDo
 
+* All individual actor methods will be static dispatch
 ### Overrides
+
 #### Base Actor
 Implement some functionality common to all actors
 * Make sure error will not stop on its own! - document!
