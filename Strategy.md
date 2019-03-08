@@ -10,6 +10,14 @@
 ## ToDo
 
 * All individual actor methods will be static dispatch
+*  if pure while - Helper loops stopped by local variables (set to false  at start of Actor core and set to stop at end) OR'ed with error from enqueuer
+* if Event loops - Create event ref in prelaunchInit.vi and destroy it in stop core.vi
+* in prelaunchinit delete event if parent method failed - if there is error actor core will not be launched, so stop core will not execute as well.
+* events in private data should be in clusters (allow direct writing to register for events)
+* Errors fron helper loop needs to be handled!
+## GUI
+
+* put all references to controllable gui objects to class private data
 ### Overrides
 
 #### Base Actor
